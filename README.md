@@ -1,5 +1,8 @@
 # Docker Standalone Samba Server
 
+NOTE: I changed samba to listen on port 446 since windows 10 was already using port 445. - Roe 9/7/2020
+
+
 Can be used to quick setup a simple Samba container in bridge network mode. It will run as if on host, so it can be accessed from other computers on the same network.
 
 It also mounts a host directory as the Samba shared point.
