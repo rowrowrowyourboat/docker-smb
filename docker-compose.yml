@@ -5,7 +5,7 @@ services:
     tty: true
     network_mode: bridge
     volumes:
-      - d:/data:/data
+      - h:/data:/data
     ports:
       - "446:445"
     build:
